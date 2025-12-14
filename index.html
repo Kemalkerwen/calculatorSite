@@ -1,53 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Kemal developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="calculator">
-    <input type="text" disabled placeholder="0" id="inputBox">
-    <div>
-      <button class="oper">AC</button>
-      <button class="oper">DEL</button>
-      <button class="oper">%</button>
-      <button class="oper">*</button>
-    </div>
-    <div>
-      <button>7</button>
-      <button>8</button>
-      <button>9</button>
-      <button class="oper">/</button>
-    </div>
-    <div>
-      <button>4</button>
-      <button>5</button>
-      <button>6</button>
-      <button class="oper">+</button>
-    </div>
-    <div>
-      <button>1</button>
-      <button>2</button>
-      <button>3</button>
-      <button class="oper">-</button>
-    </div>
-    <div>
-      <button>00</button>
-      <button>0</button>
-      <button class="oper">.</button>
-      <button class="eqBtn">=</button>
-    </div>
-  </div>
-  <script src="main.js"></script>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">PORTFOLIO</div>
+                <div class="nav-links">
+                    <a href="#home">Esasy</a>
+                    <a href="#about">Özüm barada</a>
+                    <a href="#skills">Başarnyklarym</a>
+                    <a href="#contact">Habarlaşmak</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- mobile header -->
+    <header class="mobile-header">
+        <div class="container">
+            <div class="logo mob-logo">PORTFOLIO</div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content neo-card" style="animation: fadeIn 1s ease;">
+                <h1 class="animated-text">Salam, men Kemal</h1>
+                <p class="typing-text">Biziň hyzmatlarymyz</p>
+                <p>Hereketli saýtlary we adroid, kompýuter programmalary döretmek, we başgada IT sferasynda dürli hyzmatlar bilen hyzmatyňyzda.</p>
+                <div style="margin-top: 30px;">
+                    <button class="neo-btn">Habarlaşmak üçin geliň!</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="photo-frame">
+                    <!-- Замените src на свою фотографию -->
+                    <img src="myico.jpeg" alt="my photo" class="photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Özüm barada</h2>
+            <div class="neo-card" style="animation: fadeIn 1.2s ease;">
+                <p>Döwrebap we işleýän web programmalaryny döretmekde 5 ýyldan gowrak tejribe toplan web ýasaýjy. Höwesim, iň täze tehnologiýalary ulanyp, içgin interfeýsler döretmekdir.</p>
+                <br>
+                <p>HTML5, CSS3, JavaScript ulanyp, frontend ösüşinde ýöriteleşýärin, şeýle hem neomorf stilinde özboluşly dizaýnlary döredýärin. Täze tehnologiýalary we ösüş çemeleşmelerini yzygiderli öwrenýärin.</p>
+                <br>
+                <p>Boş wagtlarym, täze CSS effektleri bilen synag etmekden, animasiýa döretmekden we ulanyjy tejribesiniň psihologiýasyny öwrenmekden lezzet alýaryn.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Meniň başarnyklarym</h2>
+            <div class="skills-container">
+                <div class="neo-card skill-item" style="animation: fadeIn 1.4s ease;">
+                    <div class="skill-name">
+                        <span>HTML5 we CSS3</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="neo-card skill-item" style="animation: fadeIn 1.6s ease;">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="neo-card skill-item" style="animation: fadeIn 1.8s ease;">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="neo-card skill-item" style="animation: fadeIn 1.8s ease;">
+                    <div class="skill-name">
+                        <span>Kotlin</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="neo-card skill-item" style="animation: fadeIn 2.0s ease;">
+                    <div class="skill-name">
+                        <span>C#</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Meniň eden işlerim</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item neo-card" style="animation: fadeIn 1.4s ease;">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Проект 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Нео-Морфизм UI</h3>
+                        <p>Интерфейс в стиле нео-морфизм с анимациями</p>
+                    </div>
+                </div>
+                <div class="portfolio-item neo-card" style="animation: fadeIn 1.6s ease;">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="Проект 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Градиентный дизайн</h3>
+                        <p>Веб-сайт с использованием градиентных цветов</p>
+                    </div>
+                </div>
+                <div class="portfolio-item neo-card" style="animation: fadeIn 1.8s ease;">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Проект 3" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Адаптивный Dashboard</h3>
+                        <p>Панель управления с аналитикой</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Men bilen habarlaşmak üçin</h2>
+            <div class="contact-container">
+                <div class="contact-info neo-card" style="animation: fadeIn 1.4s ease;">
+                    <h3 style="margin-bottom: 30px;">Контактная информация</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>haladowkemal@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>+993 64 86 22 56</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Salgy</h4>
+                            <p>Balkan, Balkanabat ş.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form neo-card" style="animation: fadeIn 1.6s ease;">
+                    <h3 style="margin-bottom: 30px;">Habar ugratmak</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Siziň adyňyz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Siziň Email poçtaňyz" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Siziň habaryňyz" required></textarea>
+                        </div>
+                        <button type="submit" class="neo-btn">Habary ugrat</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Kemal. Ähli maglumatlar goragly.</p>
+            <p style="margin-top: 10px; opacity: 0.8;">HTML / CSS / JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
-</html>
+  </html>
