@@ -431,6 +431,21 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            
+            section {
+                width: 392px;
+            }
+            
+            footer {
+                display: block;
+                width: 392px;
+            }
+            
+            body {
+                display: block;
+                width: 392px;
+            }
+            
             .navbar {
                 display: none;
             }
@@ -441,6 +456,7 @@
             
             .mobile-header {
                 display: block;
+                width: 392px;
             }
             
             .mob-logo {
@@ -462,4 +478,4 @@
             .hero {
                 flex-direction: column-reverse;
             }
-          }
+        }
