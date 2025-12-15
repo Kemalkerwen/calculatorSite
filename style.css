@@ -431,6 +431,13 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: 392px;
+                font-family: 'Segoe UI',    Tahoma, Geneva, Verdana, sans-serif;
+            }
             
             section {
                 width: 392px;
